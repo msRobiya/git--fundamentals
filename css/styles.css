@@ -47,6 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #252420;
 }
 
 .hero-content {
@@ -67,8 +68,8 @@ body {
 }
 
 .hero-img {
-    width: 510;
-    height: 510;
+    width: 510px;
+    height: 510px;
     background-color: #FF7500;
 }
 
@@ -80,8 +81,9 @@ body {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
     list-style: none;
+    justify-content: space-between;
+    
 }
 
 
