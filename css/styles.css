@@ -14,7 +14,7 @@ body {
 
 .site-header-actions {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 
