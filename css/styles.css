@@ -12,6 +12,18 @@ body {
     background-color: #fff;
 }
 
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.logo-link :hover {
+    opacity: 0.8;
+}
+
+.logo-link :active {
+    opacity: 0.6;
+}
+
 .site-header-ection {
     display: flex;
 }
@@ -32,6 +44,15 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.sitenav-link:hover {
+    color: #FF7500;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
 }
 
 .main-link {
@@ -40,6 +61,15 @@ body {
     background-color: #FF7500;
     color: #fff;
     text-decoration: none;
+    transition: opacity 0.4s ease;
+}
+
+.main-link :hover {
+    opacity: 0.8;
+}
+
+.main-link :active {
+    opacity: 0.6;
 }
 
 .hero {
@@ -74,6 +104,7 @@ body {
 .features-heading {
     width: 440px;
     font-size: 72px;
+    line-height: 1.2;
     font-family: "Roboto condensed", "roboto", "Arial", sans-serif;
 }
 
@@ -176,4 +207,12 @@ body {
     font-weight: 400;
     text-decoration: none;
     color: #252420;
+}
+
+.site-footer-links a :hover {
+    color: #FF7500;
+}
+
+.site-footer-links a :focus {
+    opacity: 0.6;
 }
