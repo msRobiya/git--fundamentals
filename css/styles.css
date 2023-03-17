@@ -58,11 +58,11 @@
         transition: opacity 0.4s ease;
     }
     
-    .main-link :hover {
+    .main-link:hover {
         opacity: 0.8;
     }
     
-    .main-link :active {
+    .main-link:active {
         opacity: 0.6;
     }
     
@@ -181,8 +181,16 @@
         align-items: center;
     }
     
-    .site-footer-socials a :hover {
+    .site-footer-socials a {
+        color: #252420;
+    }
+    
+    .site-footer-socials a:hover {
         color: #FF7500;
+    }
+    
+    .site-footer-socials a:active {
+        opacity: 0.6;
     }
     
     .site-footer-divider {
@@ -206,10 +214,10 @@
         color: #252420;
     }
     
-    .site-footer-links a :hover {
+    .site-footer-links a:hover {
         color: #FF7500;
     }
     
-    .site-footer-links a :focus {
+    .site-footer-links a:focus {
         opacity: 0.6;
     }
