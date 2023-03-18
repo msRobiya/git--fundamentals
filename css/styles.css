@@ -5,6 +5,15 @@
         letter-spacing: 0.5px;
     }
     
+    *:focus {
+        outline: 2px dotted #FF7500;
+        outline-offset: 3px;
+    }
+    
+    .site-header-actions {
+        display: flex;
+    }
+    
     .site-header {
         display: flex;
         align-items: center;
@@ -48,7 +57,7 @@
     .sitenav-link:active {
         opacity: 0.6;
     }
-
+    
     .main-link {
         font-size: 13px;
         line-height: 15px;
@@ -56,13 +65,11 @@
         color: #fff;
         text-decoration: none;
         transition: opacity 0.4s ease;
-        
         /*buni pastidegilarni button ga o'xshab korinishi uchun berib qoydim*/
         width: 150px;
         height: 50px;
         border-radius: 4px;
         padding: 12px 24px;
-
         /* border radius - burchaklarini tumaloq qilib beryatgan xususiyat chegarasini raidusi, padding joy tashledi ikki tarafdan 12 va ikki tarfdan 24 px */
     }
     
@@ -226,6 +233,6 @@
         color: #FF7500;
     }
     
-    .site-footer-links a:focus {
+    .site-footer-links a:active {
         opacity: 0.6;
     }
