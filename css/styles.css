@@ -18,6 +18,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-top: 5px solid #FF7500;
+        padding-top: 16px;
+        padding-bottom: 16px;
         background-color: #fff;
     }
     
@@ -32,11 +35,25 @@
     .logo-link :active {
         opacity: 0.6;
     }
+    
+    .logo-link img {
+        display: block;
+    }
     /* sitenav  */
     
     .sitenav-list {
         list-style: none;
         display: flex;
+        margin: 0;
+        margin-right: 32px;
+    }
+    
+    .sitenav-item {
+        margin-right: 32px;
+    }
+    
+    .sitenav-item:last-child {
+        margin-right: 0;
     }
     
     .sitenav-link {
@@ -59,8 +76,15 @@
     }
     
     .main-link {
+        display: inline-block;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 4px;
         font-size: 13px;
         line-height: 15px;
+        font-weight: bold;
         background-color: #FF7500;
         color: #fff;
         text-decoration: none;
@@ -85,6 +109,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 80px;
         background-color: #252420;
     }
     
@@ -95,19 +121,29 @@
     .orange-line {
         width: 80px;
         height: 3px;
+        margin: 0;
+        margin-bottom: 40px;
         background-color: #FF7500;
     }
     
     .hero-heading {
         font-size: 40px;
         line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 24px;
         font-family: "Roboto condensed", "roboto", "Arial", sans-serif;
         align-items: center;
+    }
+    
+    .hero-text {
+        margin: 0;
+        margin-bottom: 32px;
     }
     
     .hero-img {
         width: 510px;
         height: 510px;
+        border-radius: 8px;
         background-color: #FF7500;
     }
     
@@ -115,7 +151,14 @@
         width: 440px;
         font-size: 72px;
         line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 72px;
         font-family: "Roboto condensed", "roboto", "Arial", sans-serif;
+    }
+    
+    .features {
+        padding-top: 210px;
+        padding-bottom: 210px;
     }
     
     .features-list {
@@ -127,11 +170,20 @@
     
     .feature {
         width: 340px;
+        margin-right: 40px;
+    }
+    
+    .feature:last-child {
+        margin-right: 0;
     }
     
     .features-icon-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100px;
         height: 100px;
+        border-radius: 50%;
         background-color: rgba(255, 117, 0, 0.2);
     }
     
@@ -145,6 +197,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 120px;
+        padding-bottom: 160px;
+        border-radius: 12px;
         background-color: #252420;
         color: #fff;
     }
@@ -156,7 +211,22 @@
     .promo-heading {
         font-size: 40px;
         line-height: 48px;
+        margin-top: 0;
+        margin-bottom: 24px;
         font-family: "Roboto condensed", "roboto", "Arial", sans-serif;
+    }
+    
+    .promo-info-wrapper {
+        margin-bottom: 24px;
+    }
+    
+    .promo-text {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    
+    .promo-text:last-child {
+        margin-bottom: 0;
     }
     
     .promo-highlight {
@@ -174,10 +244,13 @@
     .promo-img {
         width: 440px;
         height: 440px;
+        border-radius: 12px;
         object-fit: cover;
     }
     
     .site-footer {
+        padding-top: 56px;
+        padding-bottom: 56px;
         background-color: #f8f8f8;
     }
     
@@ -194,10 +267,20 @@
     .site-footer-socials {
         display: flex;
         align-items: center;
+        margin: 0;
+    }
+    
+    .site-footer-socials li {
+        margin-right: 16px;
+    }
+    
+    .site-footer-socials li:last-child {
+        margin: 0;
     }
     
     .site-footer-socials a {
         color: #252420;
+        display: block;
     }
     
     .site-footer-socials a:hover {
@@ -208,8 +291,14 @@
         opacity: 0.6;
     }
     
+    .site-footer-socials svg {
+        display: block;
+    }
+    
     .site-footer-divider {
         height: 2px;
+        margin-top: 40px;
+        margin-bottom: 64px;
         background-color: rgba(37, 36, 32, 0.5);
     }
     
@@ -219,7 +308,14 @@
     
     .site-footer-links {
         width: 224;
+        padding: 0;
+        margin: 0;
+        margin-right: 68px;
         line-height: 19px;
+    }
+    
+    .site-footer-links:last-child {
+        margin-right: 0;
     }
     
     .site-footer-links a {
